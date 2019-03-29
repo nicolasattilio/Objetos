@@ -1,5 +1,7 @@
 package ejercicio1;
 
+import javax.print.attribute.standard.PrinterLocation;
+
 public class Persona {
 	private String nombre="N";
 	private String apellido="N";
@@ -16,12 +18,21 @@ public class Persona {
 	public Persona(int d, String nombre, String apellido) {
 		this.dni=d;
 		this.nombre=nombre;
-		this.apellido=apellido;
+		this.apellido=apellido;						
 		
 	}
+	public Persona(int d, String nombre, String apellido, String fecha) {
+		this.dni=d;
+		this.nombre=nombre;
+		this.apellido=apellido;
+		this.fecha_nacimiento=fecha;
+	}
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Persona n1 = new Persona(36882126);
+		System.out.println(n1.nombre);
 
 	}
 
