@@ -1,0 +1,17 @@
+package ejercicio3;
+
+public class Elemento_Geometrico {
+	private double coorX=0;
+	private double coorY=0;
+	
+	public void desplazarPunto(double x,double y) {
+		this.coorX=this.coorX+x;
+		this.coorY=this.coorY+y;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

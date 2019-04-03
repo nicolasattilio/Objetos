@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="sun.jvm.hotspot.opto.MachSafePointNode"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="sun.java2d.pipe.SpanShapeRenderer.Simple"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.text.DateFormat"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.NEW"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="javax.print.attribute.standard.PresentationDirection"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="jdk.javadoc.internal.doclets.toolkit.resources.doclets"/>
+<fullyQualifiedTypeName name="ejercicio3.Elemento_Geometrico"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.POP2"/>
+<fullyQualifiedTypeName name="ejercicio3.Punto"/>
+<fullyQualifiedTypeName name="ejercicio3.Rectangulo"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="sun.security.pkcs11.P11TlsKeyMaterialGenerator"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.ReturnaddressType"/>
+</qualifiedTypeNameHistroy>

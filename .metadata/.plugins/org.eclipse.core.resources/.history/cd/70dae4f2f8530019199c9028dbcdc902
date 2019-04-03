@@ -1,0 +1,46 @@
+package ejercicio3;
+
+public class Punto {
+	private double coorX=0;
+	private double coorY=0;
+	
+	public Punto() {
+	}
+	
+	public Punto(double x,double y) {
+		this.desplazarPunto(x, y);
+	}
+	
+	public double getCoorX() {
+		return coorX;
+	}
+
+	public double getCoorY() {
+		return coorY;
+	}
+	
+	public void devolverPunto() {
+		System.out.println(this.getCoorX()+","+this.getCoorY());
+	}
+	
+	public double distanciaEuclidia(Punto p1,Punto p2) {
+		double dx=(p1.coorX-p2.coorX)*(p1.coorX-p2.coorX);
+		double dy=(p1.coorY-p2.coorY)*(p1.coorY-p2.coorY);
+		double dtotal=dx+dy;
+		return (dtotal*dtotal);
+		
+	}
+	
+	public void desplazarPunto(double x,double y) {
+		this.coorX=x;
+		this.coorY=y;
+	}
+
+	public static void main(String[] args) {
+		Punto p1=new Punto(2,3);
+		p1.desplazarPunto(3, 4);
+		p1.devolverPunto();
+		
+	}
+
+}
