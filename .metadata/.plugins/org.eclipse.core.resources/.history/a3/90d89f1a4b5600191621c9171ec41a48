@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Serie {
-	private List<String> temporadas=new ArrayList<>();
+	private List<String> temporadas=new ArrayList<Episodio>();
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
