@@ -72,6 +72,16 @@ public class Rectangulo {
 			return true;
 		return false;			
 	}
+	public double largoSuperior() {
+		return this.getP3().distanciaEuclidia(this.getP4());
+	}
+	
+	public void posicion() {
+		if (this.largoSuperior()>(this.getP1().distanciaEuclidia(this.getP4())))
+			System.out.println("Esta acostado");
+		else 
+			System.out.println("Esta parado");
+	}
 	
 	
 }
