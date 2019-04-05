@@ -26,5 +26,13 @@ public class Temporada {
 		}
 		return (promedio/episodios.size());
 	}
+	
+	public boolean temporadaCompleta() {
+		for (Episodio e:this.episodios) {
+			if (e.isFlag()==false)
+				return false;
+		}
+		return true;
+	}
 }
 	

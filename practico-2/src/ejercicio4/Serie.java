@@ -3,7 +3,6 @@ package ejercicio4;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class Serie {
 	private List<Temporada> temporadas=new ArrayList<>();
 	private String nombre;
@@ -19,7 +18,7 @@ public class Serie {
 	}
 	
 	public List<Temporada> getTemporadas() {
-		return temporadas;
+		return new ArrayList<Temporada>(this.temporadas);
 	}
 
 	public String getNombre() {
@@ -56,21 +55,14 @@ public class Serie {
 		}
 		return (promedio/temporadas.size());
 	}
-	
-	public static void main(String[] args) {
-		Episodio E1 = new Episodio("Pilot", "Primer Capitulo");
-		Episodio E2 = new Episodio("Mom", "Segundo Capitulo");
-		Temporada T1 = new Temporada();
-		T1.addEpisodio(E1);
-		T1.addEpisodio(E2);
-		Serie S1 = new Serie("La clase", "Como los estudiantes sobreviven a la cursada de objetos", "Christopher Nolan", "Terror");
-		E1.setCalificacion(4);
-		S1.addTemporada(T1);
-		E1.setFlag(true);
-		//System.out.println(T1.episodiosVistosTemporada());
-		System.out.println(S1.episodiosVistosSerie());
-		System.out.println(T1.promedioEpisodioTemporada());
-		
+
+	public boolean serieCompleta() {
+		for(Temporada t:this.temporadas) {
+			if (t.temporadaCompleta()==false)
+				return false;
+		}
+		return true;
 	}
+	
 
 }
