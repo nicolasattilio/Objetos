@@ -65,7 +65,7 @@ public class Rectangulo {
 	}
 	
 	public void invertir() {
-		//Preguntar en clase
+		//Preguntar en clase Crear rectangulo a base de dos puntos
 	}
 	public boolean esCuadrado() {
 		if ((p1.getCoorX()==p2.getCoorX())&&(p1.getCoorY()==p3.getCoorY()))
