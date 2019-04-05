@@ -40,14 +40,5 @@ public class Punto {
 		this.setCoorY(y);
 	}
 
-	public static void main(String[] args) {
-		Punto p1=new Punto(2,1);
-		Punto p2=new Punto(5,1);
-		Punto p3=new Punto(5,3);
-		Punto p4=new Punto(2,3);
-		System.out.println(p1.distanciaEuclidia(p2));
-		Rectangulo r1=new Rectangulo(p1, p2, p3, p4);
-		System.out.println(r1.esCuadrado());
-	}
 
 }
