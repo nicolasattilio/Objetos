@@ -21,10 +21,11 @@
 <fullyQualifiedTypeName name="sun.security.pkcs11.P11TlsKeyMaterialGenerator"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.ReturnaddressType"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
 <fullyQualifiedTypeName name="ejercicio4.Episodio"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="ejercicio4.Temporada"/>
 </qualifiedTypeNameHistroy>

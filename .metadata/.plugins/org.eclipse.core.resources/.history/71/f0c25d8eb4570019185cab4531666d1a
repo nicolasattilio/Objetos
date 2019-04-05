@@ -1,0 +1,28 @@
+package ejercicio4;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Serie {
+	private List<Temporada> temporadas=new ArrayList<>();
+	private String nombre;
+	private String descripcion;
+	private String creador;
+	private String genero;
+	public Serie(String n,String d,String c,String g) {
+		this.nombre=n;
+		this.descripcion=d;
+		this.creador=c;
+		this.genero=g;
+		
+	}
+	public void addTemporada(Temporada t) {
+		this.temporadas.add(t);
+	}
+	
+	public static void main(String[] args) {
+		Episodio Pilot = new Episodio("Pilot", "Primer Capitulo");
+		System.out.println(Pilot.setCalificacion(4));
+	}
+
+}

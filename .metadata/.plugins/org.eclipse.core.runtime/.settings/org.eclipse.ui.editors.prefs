@@ -34,7 +34,6 @@ overrideIndicatorColor=75,116,113
 overviewRuler_migration=migrated_3.1
 printMarginColor=208,208,208
 pydevOccurrenceIndicationColor=65,65,4
-quickdiff.quickDiff=false
 searchResultHighlighting=false
 searchResultIndication=true
 searchResultIndicationColor=66,68,69

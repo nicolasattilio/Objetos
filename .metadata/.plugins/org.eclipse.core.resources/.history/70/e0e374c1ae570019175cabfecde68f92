@@ -1,0 +1,15 @@
+package ejercicio4;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Serie {
+	private List<Temporada> temporadas=new ArrayList<>();
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package ejercicio4;
+
+public class Episodio {
+	private String titulo;
+	private String descripcion;
+	private boolean flag=false;
+	private int calificacion=0;
+	public Episodio(String t,String d) {
+		this.titulo=t;
+		this.descripcion=d;
+	}
+	
+}
