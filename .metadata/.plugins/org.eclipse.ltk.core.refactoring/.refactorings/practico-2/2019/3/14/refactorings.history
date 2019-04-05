@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;ejercicio3.Elemento_Geometrico&apos; to &apos;Punto&apos;&#x0A;- Original project: &apos;practico-2&apos;&#x0A;- Original element: &apos;ejercicio3.Elemento_Geometrico&apos;&#x0A;- Renamed element: &apos;ejercicio3.Punto&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Elemento_Geometrico&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;ejercicio3{Elemento_Geometrico.java[Elemento_Geometrico" matchStrategy="1" name="Punto" qualified="false" references="true" similarDeclarations="false" stamp="1554066362730" textual="false" version="1.0"/>
-</session>
