@@ -14,11 +14,33 @@ public class Agenda {
 		this.reuniones.add(r);
 	}
 	
-	public List<Persona> mostrar() {
-		return new ArrayList<Persona>();
+	public List<Persona> mostrarContacto() {
+		List lista =new ArrayList<Persona>(); //consultar parametrizacion
+		for (Persona p:this.contactos) {
+			lista.add(p.getNombre());
+			lista.add(p.getApellido());
+			lista.add(2019-p.getFechaNacimiento().get(1));
+			lista.add(p.getTelefono());
+		}
+		return lista;
+	}
+	
+	public double promedioEdadContacto() {
+		double edadPromedio=0;
+		for (Persona p:this.contactos) {
+			edadPromedio+=(2019-p.getFechaNacimiento().get(1));
+		}
+		return (edadPromedio/this.contactos.size());
+			
 	}
 	
 	public List<Reunion> mostrarReuniones(){
-		return new ArrayList<Reunion>();
+		List lista=new ArrayList<Reunion>();
+		for (Reunion r:this.reuniones) {
+			lista.add(r.getLugar());
+			lista.add(r.getDuracion());
+			lista.add(r.getTemaReunion());
+		}
+		return lista;
 	}
 }

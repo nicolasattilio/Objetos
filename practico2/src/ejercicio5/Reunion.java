@@ -9,6 +9,12 @@ public class Reunion {
 	private int duracion;
 	private String temaReunion;
 	
+	public Reunion(String l,int d,String tR) {
+		this.lugar=l;
+		this.duracion=d;
+		this.temaReunion=tR;
+	}
+	
 	public void addPersona(Persona p) {
 		this.personas.add(p);
 	}
@@ -31,7 +37,11 @@ public class Reunion {
 		this.temaReunion = temaReunion;
 	}
 	public List<Persona> mostrarIntegrantes() {
-		return new ArrayList<Persona>();
+		List lista =new ArrayList<Persona>();
+		for (Persona p:this.personas) {
+			lista.add(p.getNombre());
+		}
+		return lista;
 	}
 	
 }

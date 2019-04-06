@@ -3,23 +3,17 @@ package ejercicio5;
 import java.util.Calendar;
 
 public class Persona {
-	private char jerarquia;
 	private String nombre;
 	private String email;
 	private int telefono;
 	private String apellido;
-	private Calendar fechaNacimiento;
+	private Calendar fechaNacimiento=Calendar.getInstance();
 	private String direccion;
-	public Persona(char j,String n,String e,int t) {
-		this.jerarquia=j;
-		this.email=e;
-		this.nombre=n;
-		this.telefono=t;
-	}
-	public Persona(String n,String a,Calendar fN,int num,String d,String e) {
+	
+	public Persona(String n,String a,int y,int m,int da,int num,String d,String e) {
 		this.nombre=n;
 		this.apellido=a;
-		this.fechaNacimiento=fN;
+		this.fechaNacimiento.set(y,m,da);;
 		this.telefono=num;
 		this.direccion=d;
 		this.email=e;
@@ -34,9 +28,7 @@ public class Persona {
 	public Calendar getFechaNacimiento() {
 		return fechaNacimiento;
 	}
-	public char getJerarquia() {
-		return jerarquia;
-	}
+
 	public String getNombre() {
 		return nombre;
 	}
@@ -47,6 +39,6 @@ public class Persona {
 		return telefono;
 	}
 	public String mostrarPersona() {
-		return ("Nombre: "+this.getNombre()+" Jerarquia: "+this.getJerarquia()+" Email: "+this.getEmail()+" Telefono: "+this.getTelefono());
+		return ("Nombre: "+this.getNombre()+" Email: "+this.getEmail()+" Telefono: "+this.getTelefono());
 	}
 }
