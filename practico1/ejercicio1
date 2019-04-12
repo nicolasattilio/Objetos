@@ -1,0 +1,22 @@
+Agenda Personal
+Agenda
+-List<Reunion>reuniones
++addReuniones(reunion)
++showReuniones()
+
+Reunion
+-List<Persona>personas
+-String lugar
+-int duracion
+-String temaReunion
++addPersona(Persona)
++addLugar(Lugar)
++addDuracion(duracion)
++addTemaReunion(temaReunion)
++showIntegrantes()
+
+Persona
+-String nombre
+-String email
+-int telefono
++showPersona()
