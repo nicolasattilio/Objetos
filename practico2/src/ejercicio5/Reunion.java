@@ -36,8 +36,8 @@ public class Reunion {
 	public void setTemaReunion(String temaReunion) {
 		this.temaReunion = temaReunion;
 	}
-	public List<Persona> mostrarIntegrantes() {
-		List lista =new ArrayList<Persona>();
+	public List<String> mostrarIntegrantes() {
+		List<String>lista =new ArrayList<>();
 		for (Persona p:this.personas) {
 			lista.add(p.getNombre());
 		}

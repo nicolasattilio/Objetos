@@ -14,13 +14,13 @@ public class Agenda {
 		this.reuniones.add(r);
 	}
 	
-	public List<Persona> mostrarContacto() {
-		List lista =new ArrayList<Persona>(); //consultar parametrizacion
+	public List<String> mostrarContacto() {
+		List<String>lista =new ArrayList<>(); 
 		for (Persona p:this.contactos) {
 			lista.add(p.getNombre());
 			lista.add(p.getApellido());
-			lista.add(2019-p.getFechaNacimiento().get(1));
-			lista.add(p.getTelefono());
+			lista.add(2019-p.getFechaNacimiento().get(1), "Fecha");
+			lista.add(p.getTelefono(), "Telefono");
 		}
 		return lista;
 	}
@@ -34,11 +34,11 @@ public class Agenda {
 			
 	}
 	
-	public List<Reunion> mostrarReuniones(){
-		List lista=new ArrayList<Reunion>();
+	public List<String> mostrarReuniones(){
+		List<String> lista=new ArrayList<>();
 		for (Reunion r:this.reuniones) {
 			lista.add(r.getLugar());
-			lista.add(r.getDuracion());
+			lista.add(r.getDuracion(), "Duracion");
 			lista.add(r.getTemaReunion());
 		}
 		return lista;

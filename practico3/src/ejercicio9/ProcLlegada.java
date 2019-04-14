@@ -4,7 +4,7 @@ public class ProcLlegada extends Procesador {
 
 	@Override
 	public void add(Tarea t) {
-		//preguntar como se construye el metodo
+		super.tareas.add(t);
 	}
 
 }
