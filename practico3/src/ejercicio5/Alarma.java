@@ -1,9 +1,11 @@
 package ejercicio5;
+import hardware.Sensor;
+import hardware.Timbre;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import ejercicio4.Timbre;
+
 
 public class Alarma {
 	private List<Sensor> sensores=new ArrayList<>();
@@ -14,15 +16,20 @@ public class Alarma {
 		this.sensores=new ArrayList<>();
 	}
 	
-	/*public boolean comprobar() {
-		boolean sonar=false;
-		for(Sensor s:this.sensores)
-			if (s.isDisparado())
-				sonar=true;
-				System.out.println("Sensor: "+s.getNombre()+" se ha activado");
-		if (sonar==timbre)
-			
-	}*/
+	public boolean comprobar() {
+		boolean sonar = false;
+		for(Sensor s: this.sensores) {
+			if (s.isDisparado()) {
+				sonar = true;
+				System.out.println("Sensor: "+s.getNombre()+" dispar�");
+			}
+		}
+		if (sonar) {
+			this.timbre.sonar();
+			return true;
+		}
+		return false;
+	}
 	
 	public void addSensor(Sensor s) {
 		this.sensores.add(s);

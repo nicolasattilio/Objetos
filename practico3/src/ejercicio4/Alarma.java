@@ -6,6 +6,7 @@ public class Alarma {
 	private boolean movimiento;
 	private Timbre timbre;
 	
+	
 	public Alarma(Timbre timbre) {
 		this.timbre=timbre;
 		this.vidrio=false;

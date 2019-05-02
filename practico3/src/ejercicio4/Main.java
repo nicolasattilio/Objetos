@@ -1,4 +1,5 @@
 package ejercicio4;
+import hardware.Luz;
 
 public class Main {
 

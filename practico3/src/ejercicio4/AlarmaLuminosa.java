@@ -1,5 +1,7 @@
 package ejercicio4;
 
+import hardware.Luz;
+
 public class AlarmaLuminosa extends Alarma {
 	private Luz luz;
 	
@@ -9,8 +11,10 @@ public class AlarmaLuminosa extends Alarma {
 	}
 	@Override
 	public boolean comprobar() {
-		if (super.comprobar())
+		if (super.comprobar()) {
+			this.luz.prender();
 			return true;
+		}
 		return false;
 	}
 }
