@@ -1,0 +1,24 @@
+Peluqueria
+
+Peluqueria
+-List<Peluquero> peluqueros
+-List<Cliente> clientes
++addTurno(Peluquero,Cliente)
++aplicarDescuento(Cliente);
+
+Peluquero
+-List<Turno> turnos
++addTurnos()
++showTurnos()
+
+Turno
+-int precio
+-boolean reservado
++estaReservado()
+
+Cliente
+-string nombre
+-boolean socio
++esSocio()
+
+

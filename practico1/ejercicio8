@@ -1,0 +1,20 @@
+Fabrica de mueble
+
+FabricaMueble
+-list<Articulo> articulos
+-list<Articulo> productosDisponibles
++showArticuloDisponible()
++calcularCosto(productosDisponibles)
+
+Articulo
+-string tipoArticulo
+-int peso
+-float costoFabricacion
+-float valor
+-string madera
+-string color
++calcularValorArticulo()
++calcularCostoFabricacion()
+
+
+

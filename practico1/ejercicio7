@@ -1,0 +1,17 @@
+Sistema de Encuestas
+
+SistemaEncuesta
+-List<Encuesta> encuestasRealizadas
+-list<Encuesta> encuestsasARealizar
++realizarEncuesta(Encuesta)
+
+Encuesta
+-list<String> preguntas
+-Persona encuestado
+-Empleado encuestador
++addPregunta(String)
+
+Empleado
+-string nombre
+-int encuestasRealizadas
++sumarEncuestas()

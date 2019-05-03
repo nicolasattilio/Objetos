@@ -1,0 +1,18 @@
+Contactos de un Celular
+
+Contacto
+-list<Persona> contactos
+-list<Persona> contactosRepetidos
++addContacto(Persona)
++showContactos()
++showContactosRepetidos()
++showPromedioEdad
+
+Persona
+-string nombre
+-string apellido
+-date fechaNacimiento
+-int numeroTelefono
+-string direccion
+-string direccionEmail
++showPersona()

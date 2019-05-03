@@ -1,0 +1,34 @@
+Redes Sociales
+
+Perfil
+-List<Persona> personas
+-List<Evento> eventos
+-List<Publicacion> publicaciones
++agregarAmigo(Persona)
++crearEvento(Evento)
++publicar(Publicacion)
++showAmigos()
++showEventos()
++showPublicaciones()
+
+Persona
+-int nombre
+-int edad
+-int genero
++addNombre(nombre)
++addEdad(edad)
++addGenero(genero)
+
+Publicacion
+-string texto
+-int fecha
++addTexto(texto)
++addFecha(fecha)
+
+Evento
+-string lugar
+-int fecha
+-int hora
++addFecha(fecha)
++addLugar(lugar)
++addHora(hora)

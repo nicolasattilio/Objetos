@@ -1,0 +1,18 @@
+Sistema de control de gastos publicos
+
+Pais
+-List<Provincia>provincias
++addProvincia(Provincia)
++showProvincia()
+
+Provincia
+-List<Ciudad>ciudades
++addCiudad(Ciudad)
++showCiudades()
+
+Ciudad
+-int cantHabitantes
+-int gastoPublico
+-int recaudacion
++showSistemaContable()
++itCiudadConDeficit()
