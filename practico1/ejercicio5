@@ -1,0 +1,23 @@
+Establecimiento Deportivo
+
+Establecimiento
+-List<Sitio> sitios
+-List<Usuario> usuarios
++addTurno(Sitio,Usuario)
++aplicarDescuento(Usuario)
+
+Sitio
+-List<Deporte> deportes
++showReservasxDeporte()
+
+Deporte
+-int precio
+-boolean reservado
++estaReservado()
+
+Usuario
+-string nombre
+-boolean socio
++esSocio()
+
+

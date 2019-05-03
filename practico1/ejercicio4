@@ -1,0 +1,24 @@
+Reservas de pasajes Aereos
+
+ViajeDeseado
+-string ciudad_destino
+-date fechaInf
+-date fechaSup
+-string clase
+-string tipoAsiento
+
+Vuelo
+-List<Pasajero> pasajeros
+-string aerolinia
+-date fechaPartida
+-boolean disponibilidad
+
+SistemaVuelos
+-List<Vuelo> vuelos
++buscarVuelo(ViajeDeseado):List
++confirmarVuelo(Persona):pasaje
+
+Pasaje
+-string nombrePasajero
+-float precio
+-date fechaPartida

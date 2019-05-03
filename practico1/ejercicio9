@@ -1,0 +1,18 @@
+Juego de Personajes
+
+Juego
+-list<Jugador> jugadores
++jugar(jugadores)
+
+Jugador
+-list<Carta> cartas
+-int nombre
++compararJugador(Jugador,Carta)
+
+Carta
+-list<string> cualidades
+-string nombreReal
+-string alias
++getCualidades()
+
+
