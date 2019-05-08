@@ -5,9 +5,8 @@ import java.util.List;
 
 public abstract class Procesador {
 	protected List<Tarea> tareas=new ArrayList<>();
+	public abstract void add(Tarea t);
 	public void execute() {
 		
 	}
-	public abstract void add(Tarea t);
-	
 }
