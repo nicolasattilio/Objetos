@@ -9,9 +9,13 @@ public class Fabrica {
 	
 	public void analizarPedidos() {
 		Filtro f=new FiltroSimple("Lugar Entrega");
-		/*For(Pedido p : this.pendientes)
+		for(Pedido p : this.pendientes)
 			if (f.cumple(p, new String ("Tandil")))
-				this.atendidos.add(p);*/
+				this.atendidos.add(p);
 		
+	}
+	
+	public void recibirPedidos(Pedido p) {
+		this.pendientes.add(p);
 	}
 }
