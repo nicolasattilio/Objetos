@@ -7,7 +7,6 @@ public abstract class ProcOrden extends Procesador {
 	@Override
 	public void add(Tarea t) {
 		
-
 	}
 
 }
