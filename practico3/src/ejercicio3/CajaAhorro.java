@@ -1,30 +1,31 @@
 package ejercicio3;
 
 public class CajaAhorro {
-	private int id;
-	Cliente c1;
+	private int nroCaja;
 	private double saldo=0;
-	public CajaAhorro(Cliente c1,int i) {
-		this.id=i;
-		this.c1=c1;
+	private double saldoDescubierto;
+
+	public CajaAhorro(int nroCaja,double saldodes) {
+		this.saldoDescubierto=saldodes;
+		this.nroCaja=nroCaja;
 	}
-	public int getId() {
-		return id;
+	public int getNroCaja() {
+		return nroCaja;
 	}
-	public Cliente getC1() {
-		return c1;
-	}
-	public void setSaldo(double saldo) {
-		this.saldo+=saldo;
-	}
-	public void eraseSaldo(double saldo) {
+	
+	public void extraer(double saldo) {
 		this.saldo-=saldo;
 	}
-	public double getSaldo() {
+	public double checkSaldo() {
 		return saldo;
 	}
 	
+	public void depositar(double saldo) {
+		this.saldo+=saldo;
+	}
+
+	public double getSaldoDescubierto() {
+		return saldoDescubierto;
+	}
 	
-
-
 }
