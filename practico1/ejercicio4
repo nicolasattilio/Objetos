@@ -9,7 +9,7 @@ ViajeDeseado
 
 Vuelo
 -List<Pasajero> pasajeros
--string aerolinia
+-string aerolinea
 -date fechaPartida
 -boolean disponibilidad
 

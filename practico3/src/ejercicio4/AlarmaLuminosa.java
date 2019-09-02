@@ -1,5 +1,5 @@
 package ejercicio4;
-
+import hardware.Timbre;
 import hardware.Luz;
 
 public class AlarmaLuminosa extends Alarma {

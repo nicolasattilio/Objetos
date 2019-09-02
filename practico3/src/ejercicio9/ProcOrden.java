@@ -2,12 +2,11 @@ package ejercicio9;
 
 public abstract class ProcOrden extends Procesador {
 	
-	public abstract int comparar();
+	public abstract int comparar(Tarea t);
 
 	@Override
 	public void add(Tarea t) {
-		// TODO Auto-generated method stub
-
+		
 	}
 
 }
