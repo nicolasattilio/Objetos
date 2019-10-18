@@ -7,6 +7,7 @@ import java.util.List;
 public  class CentroDeComputos {
 	private List<Computadora>computadoras=new ArrayList<>();
 	private List<Proceso>procesos=new ArrayList<>();
+	
 	public void addPc(Computadora c) {
 		this.computadoras.add(c);
 		Collections.sort(this.computadoras);
